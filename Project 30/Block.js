@@ -19,7 +19,7 @@ class Block{
 
 
       if (this.body.speed<3) {
-        super.display();
+        image(this.image,pos.x,pos.y,this.width, this.height);
       }
   
       else{
